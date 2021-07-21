@@ -12,7 +12,7 @@ spec:
     helm:
       valueFiles:
       - values.yaml
-    path: helm-charts
-    repoURL: https://github.com/praveenghuge/github-actions-test 
+    path: nginx-deployment
+    repoURL: https://github.com/praveenghuge/github-actions-test/helm-charts
     targetRevision: HEAD
   syncPolicy: {}
