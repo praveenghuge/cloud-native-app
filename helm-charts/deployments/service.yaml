@@ -5,7 +5,7 @@ metadata:
     app: nginx
     tag: alpine
   name: nginx-alpine
-  namespace: demo
+  namespace: {{ .Values.namespace.name }}
 spec:
   ports:
   - port: 8111
