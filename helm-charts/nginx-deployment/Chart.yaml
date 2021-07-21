@@ -9,8 +9,8 @@ description: Install Nginx HelloWorld
 keywords:
 - nginx
 - helloworld 
-## The chart version, here set to `3.7.0`
-version: 3.7.0
+## The chart version, here set to `1.0.0`
+version: 1.0.0
 ## List of maintainers, their names, and method of contact
 maintainers:
 - name: praveenghuge 
