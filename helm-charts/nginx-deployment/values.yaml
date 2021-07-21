@@ -1,12 +1,21 @@
-## provide the name of the namespace
 namespace:
-  name: test
+  name: demo
 
-## define the image to execute with the Deployment 
+service:
+  port: 8111
+  type: ClusterIP
+
 image:
-  repository:
-     nginx:alpine 
-  tag: v1.0.0
+  repository: nginx 
+  tag: alpine
+  pullPolicy: IfNotPresent
 
-## set the number of replicas for an application 
 replicaCount: 3
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 256Mi
+
+configmap:
+  data: "version: alpine"
