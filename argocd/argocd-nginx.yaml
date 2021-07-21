@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: python-deployment
+    path: nginx-deployment
     repoURL: https://github.com/praveenghuge/github-actions-test 
     targetRevision: HEAD
   syncPolicy: {}
