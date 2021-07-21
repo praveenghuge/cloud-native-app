@@ -1,0 +1,12 @@
+## provide the name of the namespace
+namespace:
+  name: test
+
+## define the image to execute with the Deployment 
+image:
+  repository:
+     nginx:alpine 
+  tag: v1.0.0
+
+## set the number of replicas for an application 
+replicaCount: 3
